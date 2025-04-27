@@ -87,7 +87,7 @@ const App = () => {
 
                     </div>
 
-                    <input type="color" />
+                    {/* <input type="color" /> */}
 
                 </div>
 
