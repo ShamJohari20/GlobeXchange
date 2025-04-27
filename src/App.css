@@ -1,0 +1,102 @@
+#parent{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/bgdollar.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#child1{
+    width: 355px;
+    height: 400px;
+    background-color: rgba(39, 27, 39, 0.454);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(240, 241, 236, 0.867);
+    box-shadow: 0 0 5px white;
+}
+
+#hed{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px rgb(224, 225, 202);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(239, 239, 231, 0.867);
+    box-shadow: 0 0 5px white;
+}
+
+#child2{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+}
+
+#from {
+    /* text-align: center; */
+    color: aliceblue;
+    text-shadow: 2px 2px 3px rgb(224, 225, 202);
+}
+
+#to {
+    /* text-align: center; */
+    color: aliceblue;
+    text-shadow: 2px 2px 3px rgb(224, 225, 202);
+}
+
+
+.cal{
+    display: flex;
+    column-gap: 7px;
+    row-gap: 7px;
+}
+
+.sel{
+    height: 45px;
+    width: 102px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 225, 202);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(22, 22, 21, 0.561);
+    box-shadow: 0 0 5px white;  
+}
+
+.inp{
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 225, 202);
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;  
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(22, 22, 21, 0.561);
+    box-shadow: 0 0 5px white; 
+}
+
+#c-btn{
+    height: 45px;
+    width: max-content;
+    font-size: 20px;
+    background-color: rgb(224, 225, 202);
+    color:rgb(73, 160, 72);
+    font-weight: 700;
+    cursor: pointer;
+    border: solid;
+    border-color: rgba(22, 22, 21, 0.561);
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 40px;
+}
+
