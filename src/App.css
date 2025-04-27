@@ -12,7 +12,7 @@
 }
 
 #child1{
-    width: 355px;
+    width: 340px;
     height: 400px;
     background-color: rgba(39, 27, 39, 0.454);
     border-style: solid;
@@ -73,6 +73,7 @@
 
 .inp{
     height: 45px;
+    width: 200px;
     border: none;
     outline: none;
     background-color: rgb(224, 225, 202);
